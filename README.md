@@ -1,70 +1,47 @@
 # House-Price-Prediction-using-Machine-Learning-in-Python
 
 📌 Overview
-This project predicts house prices based on multiple property features, helping real estate stakeholders make data-driven decisions. Using Python and Machine Learning, it covers data preprocessing, exploratory data analysis (EDA), feature encoding, model training, and performance evaluation.
+This project predicts house prices based on key property features such as lot size, zoning classification, dwelling type, construction year, remodeling details, exterior materials, basement area, and overall condition.
+Using Python and Machine Learning, the workflow covers everything from data preprocessing and EDA to feature encoding, model training, and evaluation.
 
-The model is trained on a dataset containing details such as location, lot area, building type, year built, and condition, and achieves high accuracy using regression algorithms.
+⚙ Project Workflow
+Data Preprocessing
 
-📂 Dataset Features
-Feature	Description
-Id	Unique record ID
-MSSubClass	Dwelling type
-MSZoning	Zoning classification
-LotArea	Lot size (sq. ft.)
-LotConfig	Lot configuration
-BldgType	Type of dwelling
-OverallCond	Overall condition rating
-YearBuilt	Year of construction
-YearRemodAdd	Year of remodeling
-Exterior1st	Exterior covering
-BsmtFinSF2	Type 2 finished basement area
-TotalBsmtSF	Total basement area
-SalePrice	Target variable (price)
+Removed irrelevant features like the record ID.
 
-⚙ Workflow
-1. Data Preprocessing
-Dropped irrelevant features (Id)
+Filled missing values in SalePrice with the mean.
 
-Filled missing values (mean imputation for SalePrice)
+Dropped records with very few nulls to keep the dataset clean.
 
-Removed records with minimal nulls
+Exploratory Data Analysis (EDA)
 
-2. Exploratory Data Analysis (EDA)
-Correlation heatmap for numerical features
+Visualized correlations between numerical features using a heatmap.
 
-Bar plots for categorical feature distribution
+Examined categorical feature distributions with bar plots.
 
-3. Feature Encoding
-Applied OneHotEncoder to convert categorical variables into numeric format
+Feature Encoding
 
-4. Train-Test Split
-train_test_split (80% training, 20% testing)
+Used OneHotEncoder to transform categorical variables into numeric format for ML models.
 
-5. Model Training
+Model Training
+
+Trained and tested three regression models:
+
 Support Vector Regression (SVR)
 
 Random Forest Regressor
 
 Linear Regression
 
-6. Evaluation
-Metric: Mean Absolute Percentage Error (MAPE)
+Model Evaluation
 
-📊 Results
-Model	MAPE
-SVR	0.1870
-Random Forest	0.1929
-Linear Regression	0.1874
+Measured performance using Mean Absolute Percentage Error (MAPE).
 
-✅ Best Model: SVR (MAPE ≈ 18.7%)
+SVR performed best with ~18.7% error, followed closely by Linear Regression.
 
-🚀 How to Run
-# Clone the repository
-git clone https://github.com/your-username/House-Price-Prediction-using-Machine-Learning-in-Python.git
-cd House-Price-Prediction-using-Machine-Learning-in-Python
+📊 Key Results
+Best Model: Support Vector Regression (SVR)
 
-# Install dependencies
-pip install pandas matplotlib seaborn scikit-learn
+MAPE: ~0.187 (≈ 18.7% error)
 
-# Run the script
-python house_price_prediction.py
+Random Forest and Linear Regression also achieved competitive results.
