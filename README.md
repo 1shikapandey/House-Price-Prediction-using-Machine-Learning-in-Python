@@ -2,7 +2,7 @@
 <html lang="en">
 <body>
 
-  <h1>🏠 House Price Prediction using Machine Learning in Python</h1>
+  <h1> House Price Prediction using Machine Learning in Python</h1>
 
   <div class="section">
     <h2>📌 Overview</h2>
