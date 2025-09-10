@@ -37,7 +37,7 @@
     <h2>Use Cases</h2>
     <ul>
       <li> <strong>Real Estate Agencies</strong> – Provide clients with quick and reliable property price estimates.</li>
-      <li>👨‍👩‍👧 <strong>Home Buyers & Sellers</strong> – Make informed decisions on buying or selling property.</li>
+      <li><strong>Home Buyers & Sellers</strong> – Make informed decisions on buying or selling property.</li>
       <li>🏦 <strong>Property Valuation</strong> – Assist banks and financial institutions in mortgage approvals.</li>
     </ul>
   </div>
