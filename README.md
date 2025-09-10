@@ -43,7 +43,7 @@
   </div>
 
   <div class="section">
-    <h2>🛠️ Technical Overview</h2>
+    <h2> Technical Overview</h2>
     <h3>Libraries & Their Purpose</h3>
     <table>
       <tr>
