@@ -78,7 +78,7 @@
   </div>
 
   <div class="section">
-    <h2>📊 Example Workflow</h2>
+    <h2>Example Workflow</h2>
     <p><strong>Input</strong> – Historical housing dataset with features like area, location, number of rooms, etc.</p>
     <p><strong>Processing</strong> –</p>
     <ul>
