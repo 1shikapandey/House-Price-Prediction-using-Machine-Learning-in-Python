@@ -22,7 +22,7 @@
   </div>
 
   <div class="section">
-    <h2>📌 Key Features</h2>
+    <h2> Key Features</h2>
     <ul>
       <li><strong>Data Preprocessing</strong> – Handles missing values, encodes categorical variables, and scales features.</li>
       <li><strong>Exploratory Data Analysis</strong> – Visualizes patterns and correlations between features and house prices.</li>
