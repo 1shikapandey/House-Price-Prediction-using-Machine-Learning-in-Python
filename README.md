@@ -34,7 +34,7 @@
   </div>
 
   <div class="section">
-    <h2>📂 Use Cases</h2>
+    <h2>Use Cases</h2>
     <ul>
       <li>🏢 <strong>Real Estate Agencies</strong> – Provide clients with quick and reliable property price estimates.</li>
       <li>👨‍👩‍👧 <strong>Home Buyers & Sellers</strong> – Make informed decisions on buying or selling property.</li>
