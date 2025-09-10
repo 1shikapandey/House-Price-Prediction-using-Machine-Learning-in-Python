@@ -5,7 +5,7 @@
   <h1> House Price Prediction using Machine Learning in Python</h1>
 
   <div class="section">
-    <h2>📌 Overview</h2>
+    <h2> Overview</h2>
     <p>
       The <strong>House Price Prediction</strong> project is a machine learning-based application 
       that estimates the selling price of a house based on various features such as 
